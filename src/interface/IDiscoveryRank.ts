@@ -1,0 +1,30 @@
+export interface DiscoveryRank {
+    // 周期
+    issue: number
+    // 排行类型
+    reankType: number
+    // 排行名次
+    ranking: number
+    // 对象ID
+    entityId: number
+    // 对象名
+    entityName: string
+    // 用户ID
+    userId: number
+    // 用户名
+    userName: string
+    // 对象图片URL
+    entityPicUrl: string
+    // 是否是视频
+    isVideo: boolean
+    // 数量
+    inc: number
+    // 本期开始时间
+    startDate: string
+    // 本期结束时间
+    endDate: string
+    // 第一期开始时间
+    currentTime: string
+    // 信息
+    showMsg: string
+}

@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "*": ["src/*"]
+        },
+        "sourceMap": true,
+        // 启用装饰器
+        "experimentalDecorators": true,
+        "target": "es5",
+        "module": "es2015",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "lib": ["es2015", "dom"],
+        "types": ["node", "vue"],
+        "outDir": "./build",
+        "typeRoots": ["node_modules/@types"],
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false
+    }
+}
